@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Todo Project</title>
+    <link rel="stylesheet" type="text/scss" href="/stylesheets/style.scss"></link>
+  </head>
+  <body>
+    <div class="header">
+      <div class="logo"></div>
+      <!--TODO: name?-->
+      <h2>My<span class="thin-text">Lists</span></h2>
+      <!--TODO: user profile dropdown-->
+      <button class="user-dropdown">User Name</button>
+    </div>
+    <div class="page-container">
+      <div class="sidebar">
+        <!--TODO: use js to populate lists-->
+        <ul class="sidebar-nav-list">
+          <li class="sidebar-nav-item selected">
+            <a href="#">Dashboard</a>
+          </li>
+          <li class="sidebar-nav-item">
+            <a href="#">Today</a>
+          </li>
+          <li class="sidebar-nav-item">
+            <a href="#">Next 7 Days</a>
+          </li>
+          <li class="sidebar-nav-item">
+            <a href="#">Long Term</a>
+          </li>
+        </ul>
+      </div>
+      <div class="main-page dashboard">
+        <div class="card">
+          <h2>Today</h2>
+          <ul class="todo-list">
+            <li class="todo-item with-checkbox">
+              <input type="checkbox" id="checkbox_1" checked></input>
+              <label for="checkbox_1">Finish Card View</label>
+            </li>
+            <li class="todo-item with-checkbox">
+              <input type="checkbox" id="checkbox_2" checked></input>
+              <label for="checkbox_2">Add JS Handling</label>
+            </li>
+            <li class="todo-item with-checkbox">
+              <input type="checkbox" id="checkbox_3"></input>
+              <label for="checkbox_3">Decide on Name</label>
+            </li>
+            <li class="todo-item with-checkbox">
+              <input type="checkbox" id="checkbox_4"></input>
+              <label for="checkbox_4">Add Routing To Sidebar</label>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

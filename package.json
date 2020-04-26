@@ -1,0 +1,38 @@
+{
+  "name": "todo-website",
+  "version": "1.0.0",
+  "description": "Just another todo website that is //TODO",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "webpack --mode development && node server/index.js",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashleynoll/todo-website.git"
+  },
+  "author": "Ashley Noll",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashleynoll/todo-website/issues"
+  },
+  "homepage": "https://github.com/ashleynoll/todo-website#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.5.3",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.2.0",
+    "node-sass": "^4.14.0",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.2.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
